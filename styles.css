@@ -93,13 +93,13 @@ li{
 }
 
 .menu__backdrop {
-  position: absolute;
+  position: fixed;
   background-color: #242424;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  z-index: 100;
+  z-index: 101;
    display: flex; 
   justify-content: center;
   align-items: center;
